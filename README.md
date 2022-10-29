@@ -39,8 +39,8 @@ then. will execute 'touch /tmp/pwned'
 20) echo - port 7
 21) time - port 37
 22) discard - port 9
-23) QDPM 9.1 https://localhost/qdpm/index.php user:admin@localhost password:toor (remember for web servers you need apache2 and mysql running read note below to bring them up first)
-24) RiteCMS http://localhost/ritecms/admin.php user:admin password:admin (this is SQLite) RFI
+23) QDPM 9.1 `https://localhost/qdpm/index.php` user:admin@localhost password:toor (remember for web servers you need apache2 and mysql running read note below to bring them up first)
+24) RiteCMS `http://localhost/ritecms/admin.php` user:admin password:admin (this is SQLite) RFI
 25) Drupal 8.5 -- localhost/drupal85 root toor - DRUPALGEDDON2
 26) localhost/sqli.php -- SQL Injection 
 27) Wembin 1996 -- RCE localhost:10000
