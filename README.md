@@ -49,10 +49,10 @@ Note: from /opt/lampp run -> `sudo ./manager-linux-x64.run` #to get Xammp GUI
 
 PLUS - API Vulnerable frameworks (See readme in Desktop) 
 
-crAPI  
-PIXI. 
-OWASP Juice Shop. 
-Damn Vulnerable GraphQL. 
+crAPI.  
+PIXI.   
+OWASP Juice Shop.   
+Damn Vulnerable GraphQL.   
 
 Bonus stuff to practice (Stego, WAV, Pcaps, BoF, Win7 SAM hashes) 
 
